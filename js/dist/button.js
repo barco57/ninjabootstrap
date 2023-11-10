@@ -1,6 +1,6 @@
 /*!
-  * Bootstrap button.js v5.3.2 (https://getbootstrap.com/)
-  * Copyright 2011-2023 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Bootstrap button.js v1.0.1 (https://bootstrap.ninja/)
+  * Copyright 2011-2023 The LiveCanvas Team
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
   */
 (function (global, factory) {

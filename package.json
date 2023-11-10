@@ -97,7 +97,10 @@
     "watch-css-docs": "nodemon --watch site/assets/scss/ --ext scss --exec \"npm run css-lint\"",
     "watch-css-test": "nodemon --watch scss/ --ext scss,js --exec \"npm run css-test\"",
     "watch-js-main": "nodemon --watch js/src/ --ext js --exec \"npm-run-all js-lint js-compile\"",
-    "watch-js-docs": "nodemon --watch site/assets/js/ --ext js --exec \"npm run js-lint\""
+    "watch-js-docs": "nodemon --watch site/assets/js/ --ext js --exec \"npm run js-lint\"",
+    "nb-css": "sass scss/bootstrap.scss:dist/css/bootstrap.css --source-map --style expanded",
+    "nb-watch": "sass --watch scss/bootstrap.scss:dist/css/bootstrap.css --source-map --style expanded",
+    "nb-build": "npm-run-all nb-css css-minify"
   },
   "peerDependencies": {
     "@popperjs/core": "^2.11.8"
